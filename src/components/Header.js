@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint global-require: 0 */
 
 import React from 'react';

@@ -1,7 +1,7 @@
 import React from 'react';
-import Dashboard_card from './Dashboard_card';
-import Text_Hero from './Text_Hero';
 import styled from 'styled-components';
+import DashboardCard from './DashboardCard';
+import Text_Hero from './Text_Hero';
 
 const Wrapper = styled.div`
   .card {
@@ -55,7 +55,7 @@ const Hero = () => (
       <div className="columns">
         {text.map(p => (
           <div className="column ">
-            <Dashboard_card title={p.title} subtitle={p.subtitle} />
+            <DashboardCard title={p.title} subtitle={p.subtitle} />
           </div>
         ))}
       </div>

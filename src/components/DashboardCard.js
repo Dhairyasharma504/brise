@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     margin: 6px;
   }
 `;
-const Dashboard_card = ({ title, subtitle }) => (
+const DashboardCard = ({ title, subtitle }) => (
   <Wrapper>
     <div className="card">
       <div className="container">
@@ -34,4 +34,4 @@ const Dashboard_card = ({ title, subtitle }) => (
   </Wrapper>
 );
 
-export default Dashboard_card;
+export default DashboardCard;

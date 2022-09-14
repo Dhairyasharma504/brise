@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 import NewsItem from '../components/NewsItem';
+import SideNavbar from '../components/SideNavbar';
 
 const Container = styled.div`
   margin-top: 4rem;
@@ -15,6 +16,7 @@ const NewsUpdates = ({ data }) => {
 
   return (
     <Layout>
+      <SideNavbar />
       <Seo title="News & Updates" />
       <section className="section">
         <Container className="container">

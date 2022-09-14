@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
+import SideNavbar from '../components/SideNavbar';
 
 const Section = styled.div`
   .container {
@@ -26,6 +27,7 @@ const Section = styled.div`
 const Contact = () => (
   <Layout>
     <Seo title="Contact Us" />
+    <SideNavbar />
     <Section className="section">
       <div className="container">
         <div className="columns is-centered">

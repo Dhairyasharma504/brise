@@ -2,10 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset-advanced';
 import { darken, lighten } from 'polished';
 
-const mainBrandColor = '#00D1B2';
-const lightShades = '#F5F5F5';
-const darkAccent = '#3173DC';
-const darkShades = '#0A0A0A';
+const mainBrandColor = '#FFFFFF';
+const lightShades = '#00A939';
+const darkAccent = '#121212';
+const darkShades = '#F64848';
 
 export const theme = {
   // It can be liberally applied to your layout as its main identity.
@@ -38,7 +38,7 @@ export const theme = {
   textColorInverse: lightShades,
   textColorLite: '#8B8989',
   menuTintColor: darkAccent,
-  primaryFontFamily: "'Open Sans', sans-serif",
+  primaryFontFamily: 'system-ui',
   secondaryFontFamily: "'Open Sans', sans-serif",
   boxShadow: 'rgba(0,0,0,0.08) 0px 7px 18px',
 };
@@ -61,12 +61,10 @@ const GlobalStyle = createGlobalStyle`
   p {
     line-height: 1.5rem;
   }
-  p, .title, .box {
+  p, .box {
     color: ${theme.textColor} !important;
   }
-  .subtitle {
-    color: ${lighten(0.06, theme.textColor)} !important;
-  }
+  
   .button.is-primary {
     background-color: ${theme.mainBrandColor};
     transition: background-color 0.2s ease;
@@ -95,6 +93,7 @@ const GlobalStyle = createGlobalStyle`
   .has-text-warning {
     color: ${theme.lightAccent} !important;
   }
+  
 `;
 
 export default GlobalStyle;

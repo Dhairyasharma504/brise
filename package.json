@@ -22,6 +22,8 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.4.4",
     "@mdx-js/react": "^1.4.4",
+    "boxicons": "^2.1.2",
+    "d3-shape": "^3.1.0",
     "dayjs": "^1.8.16",
     "gatsby": "^2.15.9",
     "gatsby-image": "^2.2.17",
@@ -34,11 +36,13 @@
     "gatsby-plugin-styled-components": "^3.1.4",
     "gatsby-remark-images": "^3.1.20",
     "gatsby-source-filesystem": "^2.1.21",
+    "i": "^0.3.7",
     "polished": "^3.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "router-dom": "^2.2.9",
     "styled-components": "^4.3.2",
     "styled-reset-advanced": "^1.0.1"
   },
